@@ -39,6 +39,12 @@ send a pull request!
 
 $VERSION = "1.004";
 
+=head1 Methods
+
+Loading this module adds these methods to the C<Business::ISBN> class:
+
+=over 4
+
 =item xisbn
 
 In scalar context, returns an anonymous array of related ISBNs using xISBN.
@@ -102,6 +108,8 @@ sub _xisbn_url {
 1;
 
 __END__
+
+=back
 
 =head1 SOURCE AVAILABILITY
 
