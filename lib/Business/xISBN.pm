@@ -121,6 +121,10 @@ This source is in Github:
 
 brian d foy C<< <bdfoy@cpan.org> >>
 
+=head2 Contributors
+
+Mohammad S Anwar (manwar)
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright © 2016-2018, brian d foy <bdfoy@cpan.org>. All rights reserved.
