@@ -1,7 +1,9 @@
 use Carp qw(carp);
 carp "The xisbn service was due to be turned off on March 15, 2016.";
 package Business::xISBN;
-use Business::ISBN 2;
+use Business::ISBN 3.005;
+
+our $VERSION = "1.005";
 
 package # hide from PAUSE
 	Business::ISBN;
@@ -37,7 +39,6 @@ send a pull request!
 
 =cut
 
-$VERSION = "1.004";
 
 =head1 Methods
 
